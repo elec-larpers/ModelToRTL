@@ -1,0 +1,9 @@
+{
+  "seed": 20260324,
+  "input_hex": "/home/avi-guha/Desktop/Elec Larpers 2026/ModelToRTL/rtl/yolo26n_top/testvectors/input_random.hex",
+  "expected_hex": "/home/avi-guha/Desktop/Elec Larpers 2026/ModelToRTL/rtl/yolo26n_top/testvectors/expected_random.hex",
+  "output_hash_fnv1a_u64": 420047154763599516,
+  "sample0": -0.37973785400390625,
+  "sample1": 0.4923553466796875,
+  "sample_last": 59.0
+}
