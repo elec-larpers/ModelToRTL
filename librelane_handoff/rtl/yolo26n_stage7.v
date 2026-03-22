@@ -5140,11 +5140,13 @@ module stage7____float_adde8m23b_127nih(clock,
     .BITSIZE_out1(64)) in_port_a_REG (.out1(in_port_a_SIGI2),
     .clock(clock),
     .reset(reset),
+    .wenable(1'b1),
     .in1(in_port_a_SIGI1));
   stage7__register_STD #(.BITSIZE_in1(64),
     .BITSIZE_out1(64)) in_port_b_REG (.out1(in_port_b_SIGI2),
     .clock(clock),
     .reset(reset),
+    .wenable(1'b1),
     .in1(in_port_b_SIGI1));
   // io-signal post fix
   assign in_port_a_SIGI1 = a;
@@ -9152,11 +9154,13 @@ module stage7____float_mule8m23b_127nih(clock,
     .BITSIZE_out1(64)) in_port_a_REG (.out1(in_port_a_SIGI2),
     .clock(clock),
     .reset(reset),
+    .wenable(1'b1),
     .in1(in_port_a_SIGI1));
   stage7__register_STD #(.BITSIZE_in1(64),
     .BITSIZE_out1(64)) in_port_b_REG (.out1(in_port_b_SIGI2),
     .clock(clock),
     .reset(reset),
+    .wenable(1'b1),
     .in1(in_port_b_SIGI1));
   // io-signal post fix
   assign in_port_a_SIGI1 = a;
@@ -27280,5 +27284,4 @@ module _Z14yolo26n_stage7PKfPf(clock,
     ._input0_q1(input0_q1));
 
 endmodule
-
 

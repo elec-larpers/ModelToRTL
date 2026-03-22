@@ -13,3 +13,10 @@ Run the composed simulation with:
 ```bash
 bash run_top_sim.sh
 ```
+
+Audit the checked-in handoff with:
+
+```bash
+python ../tools/handoff_audit.py
+python ../tools/handoff_audit.py --create-compat-links
+```
